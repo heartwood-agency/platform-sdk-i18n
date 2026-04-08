@@ -1,0 +1,30 @@
+name: CrowdIn Download Translations
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Weekly on Monday at 6am UTC
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download translations from CrowdIn
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: false
+          upload_translations: false
+          download_translations: true
+          export_only_approved: true
+          localization_branch_name: chore/crowdin-translations
+          create_pull_request: true
+          pull_request_title: "chore: update translations from CrowdIn"
+          pull_request_body: "Automated translation update from CrowdIn. Review and merge to include latest translations."
+          pull_request_base_branch_name: main
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_API_TOKEN: ${{ secrets.CROWDIN_API_TOKEN }}
+          CROWDIN_BASE_URL: ${{ secrets.CROWDIN_BASE_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

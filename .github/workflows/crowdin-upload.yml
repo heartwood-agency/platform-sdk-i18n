@@ -1,0 +1,24 @@
+name: CrowdIn Upload Sources
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "sources/**"
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload sources to CrowdIn
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: false
+          download_translations: false
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_API_TOKEN: ${{ secrets.CROWDIN_API_TOKEN }}
+          CROWDIN_BASE_URL: ${{ secrets.CROWDIN_BASE_URL }}

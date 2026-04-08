@@ -1,0 +1,33 @@
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_API_TOKEN
+base_url_env: CROWDIN_BASE_URL
+preserve_hierarchy: true
+
+files:
+  # Common strings - JSON (React/RN)
+  - source: /sources/common/en.json
+    translation: /translations/react/%two_letters_code%.json
+    type: i18next_json
+
+  # Common strings - Android XML
+  - source: /sources/common/strings.xml
+    translation: /translations/android/values-%android_code%/strings.xml
+    type: android
+
+  # Common strings - iOS .strings
+  - source: /sources/common/Localizable.strings
+    translation: /translations/ios/%two_letters_code%.lproj/Localizable.strings
+
+  # Android-only strings
+  - source: /sources/android/strings.xml
+    translation: /translations/android/values-%android_code%/strings_platform.xml
+    type: android
+
+  # iOS-only strings
+  - source: /sources/ios/Localizable.strings
+    translation: /translations/ios/%two_letters_code%.lproj/Localizable_platform.strings
+
+  # React/RN-only strings
+  - source: /sources/react/en.json
+    translation: /translations/react/%two_letters_code%_platform.json
+    type: i18next_json

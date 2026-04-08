@@ -1,0 +1,26 @@
+node_modules/
+dist/
+
+# Assembled package resources (rebuilt from sources + translations)
+packages/android/src/main/res/values*/
+packages/ios/Sources/YVPlatformI18n/Resources/*.lproj/
+packages/react/locales/
+
+# Build artifacts
+packages/android/build/
+packages/android/.gradle/
+*.aar
+
+# Environment / secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.xcworkspace
+*.xcuserdata

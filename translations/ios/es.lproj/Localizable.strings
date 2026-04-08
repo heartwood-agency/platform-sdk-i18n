@@ -1,0 +1,23 @@
+/* AUTO-GENERATED from en.json — do not edit manually */
+
+"common.auth.signInButton" = "Iniciar sesión";
+"common.auth.signOutButton" = "Cerrar sesión";
+"common.auth.signUpButton" = "Regístrate";
+"common.auth.forgotPassword" = "¿Olvidó la contraseña?";
+"common.auth.emailPlaceholder" = "Dirección de email";
+"common.auth.passwordPlaceholder" = "Contraseña";
+"common.auth.welcomeMessage" = "¡Bienvenido de nuevo, %@!";
+"common.general.ok" = "OK";
+"common.general.cancel" = "Cancelar";
+"common.general.save" = "Guardar";
+"common.general.delete" = "Eliminar";
+"common.general.edit" = "Editar";
+"common.general.done" = "Hecho";
+"common.general.loading" = "Cargando…";
+"common.general.retry" = "Reintentar";
+"common.general.errorGeneric" = "Algo salió mal. Por favor, inténtalo de nuevo.";
+"common.bible.verseOfTheDay" = "Versículo del día";
+"common.bible.readMore" = "Leer más";
+"common.bible.bookmarkAdded" = "Marcador añadido";
+"common.bible.bookmarkRemoved" = "Marcador eliminado";
+"common.bible.shareVerse" = "Compartir este versículo";

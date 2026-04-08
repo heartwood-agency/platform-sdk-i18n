@@ -1,0 +1,31 @@
+{
+  "common": {
+    "auth": {
+      "signInButton": "Iniciar sesión",
+      "signOutButton": "Cerrar sesión",
+      "signUpButton": "Regístrate",
+      "forgotPassword": "¿Olvidó la contraseña?",
+      "emailPlaceholder": "Dirección de email",
+      "passwordPlaceholder": "Contraseña",
+      "welcomeMessage": "¡Bienvenido de nuevo, {{name}}!"
+    },
+    "general": {
+      "ok": "OK",
+      "cancel": "Cancelar",
+      "save": "Guardar",
+      "delete": "Eliminar",
+      "edit": "Editar",
+      "done": "Hecho",
+      "loading": "Cargando…",
+      "retry": "Reintentar",
+      "errorGeneric": "Algo salió mal. Por favor, inténtalo de nuevo."
+    },
+    "bible": {
+      "verseOfTheDay": "Versículo del día",
+      "readMore": "Leer más",
+      "bookmarkAdded": "Marcador añadido",
+      "bookmarkRemoved": "Marcador eliminado",
+      "shareVerse": "Compartir este versículo"
+    }
+  }
+}

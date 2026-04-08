@@ -1,0 +1,23 @@
+/* AUTO-GENERATED from en.json — do not edit manually */
+
+"common.auth.signInButton" = "Sign In";
+"common.auth.signOutButton" = "Sign Out";
+"common.auth.signUpButton" = "Sign Up";
+"common.auth.forgotPassword" = "Forgot Password?";
+"common.auth.emailPlaceholder" = "Email address";
+"common.auth.passwordPlaceholder" = "Password";
+"common.auth.welcomeMessage" = "Welcome back, %@!";
+"common.general.ok" = "OK";
+"common.general.cancel" = "Cancel";
+"common.general.save" = "Save";
+"common.general.delete" = "Delete";
+"common.general.edit" = "Edit";
+"common.general.done" = "Done";
+"common.general.loading" = "Loading…";
+"common.general.retry" = "Retry";
+"common.general.errorGeneric" = "Something went wrong. Please try again.";
+"common.bible.verseOfTheDay" = "Verse of the Day";
+"common.bible.readMore" = "Read More";
+"common.bible.bookmarkAdded" = "Bookmark added";
+"common.bible.bookmarkRemoved" = "Bookmark removed";
+"common.bible.shareVerse" = "Share this verse";

@@ -1,0 +1,31 @@
+name: Validate
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Generate platform sources
+        run: npm run generate
+
+      - name: Check generated files are up to date
+        run: |
+          if ! git diff --exit-code sources/common/strings.xml sources/common/Localizable.strings; then
+            echo "ERROR: Generated files are out of date. Run 'npm run generate' and commit the results."
+            exit 1
+          fi
+
+      - name: Validate key consistency
+        run: npm run validate

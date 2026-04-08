@@ -1,0 +1,19 @@
+{
+  "react": {
+    "nav": {
+      "breadcrumbHome": "Inicio",
+      "breadcrumbBible": "Biblia",
+      "breadcrumbPlans": "Planes",
+      "skipToContent": "Ir al contenido principal"
+    },
+    "a11y": {
+      "menuToggle": "Cambiar menú de navegación",
+      "searchExpand": "Expandir búsqueda",
+      "closeModal": "Cerrar diálogo"
+    },
+    "seo": {
+      "defaultTitle": "Aplicación bíblica de YouVersion",
+      "defaultDescription": "Lee la Biblia, descubre planes y busca a Dios todos los días."
+    }
+  }
+}

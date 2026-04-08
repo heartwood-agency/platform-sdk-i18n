@@ -1,0 +1,14 @@
+/* iOS-only strings */
+/* Settings */
+
+"ios.settings.notificationToggle" = "Habilitar notificaciones";
+"ios.settings.darkModeToggle" = "Modo Oscuro";
+"ios.settings.textSizeLabel" = "Tamaño del texto";
+
+/* App Clips / Widgets */
+"ios.widget.verseWidgetTitle" = "Versículo del día";
+"ios.widget.verseWidgetDescription" = "Mostrar el verso de hoy en tu pantalla de inicio";
+
+/* Siri Shortcuts */
+"ios.siri.readVerseShortcut" = "Leer el versículo del día";
+"ios.siri.openBibleShortcut" = "Abrir Biblia";

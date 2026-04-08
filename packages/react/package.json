@@ -1,0 +1,26 @@
+{
+  "name": "@youversion/platform-i18n",
+  "version": "0.1.0",
+  "description": "Localized strings for YouVersion apps (React + React Native)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "locales/"
+  ],
+  "keywords": [
+    "youversion",
+    "i18n",
+    "localization",
+    "i18next",
+    "react",
+    "react-native"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicholasgmartin/yv-platform-i18n.git",
+    "directory": "packages/react"
+  }
+}
