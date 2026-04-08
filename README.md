@@ -140,6 +140,14 @@ Uploading and downloading translations happens automatically via GitHub Actions.
 - **Uploads** happen automatically when source files are merged to `main`.
 - **Downloads** happen automatically on a weekly schedule (Monday 6am UTC), or on-demand from the Actions tab ("CrowdIn Download Translations" > "Run workflow"). Downloads open a PR with the new translations for review.
 
+### Adding a new language
+
+Add the target language to your CrowdIn project in the CrowdIn UI. That's it — no repo changes needed. Once translators begin translating and approving strings, the next download will pick up the new language automatically and include it in the translation PR.
+
+### Translation PR behavior
+
+The download workflow always pushes to the same branch (`chore/crowdin-translations`). If a PR already exists for that branch, new translations are appended as additional commits rather than opening a new PR. This gives you a single rolling translation PR instead of a pile of duplicates. Once you merge it, the next download creates a fresh branch and PR.
+
 ### Translation coverage
 
 Check how complete translations are across all platforms:
