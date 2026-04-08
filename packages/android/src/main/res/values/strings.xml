@@ -24,4 +24,5 @@
     <string name="yv_i18n_common_bible_shareVerse">Share this verse</string>
     <string name="yv_i18n_common_bible_chaptersRead">You\'ve read %1$s chapters today!</string>
     <string name="yv_i18n_common_bible_streakMessage">%1$s day streak! Keep it up!</string>
+    <string name="yv_i18n_common_bible_planProgress">%1$s of %2$s days completed</string>
 </resources>

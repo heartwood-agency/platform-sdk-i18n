@@ -23,6 +23,7 @@
 "common.bible.shareVerse" = "Share this verse";
 "common.bible.chaptersRead" = "You've read %@ chapters today!";
 "common.bible.streakMessage" = "%@ day streak! Keep it up!";
+"common.bible.planProgress" = "%1$@ of %2$@ days completed";
 /* iOS-only strings */
 
 /* Settings */
