@@ -1,19 +1,19 @@
 {
   "react": {
     "nav": {
-      "breadcrumbHome": "Inicio",
-      "breadcrumbBible": "Biblia",
-      "breadcrumbPlans": "Planes",
-      "skipToContent": "Ir al contenido principal"
+      "breadcrumbHome": "Home",
+      "breadcrumbBible": "Bible",
+      "breadcrumbPlans": "Plans",
+      "skipToContent": "Skip to main content"
     },
     "a11y": {
-      "menuToggle": "Cambiar menú de navegación",
-      "searchExpand": "Expandir búsqueda",
-      "closeModal": "Cerrar diálogo"
+      "menuToggle": "Toggle navigation menu",
+      "searchExpand": "Expand search",
+      "closeModal": "Close dialog"
     },
     "seo": {
-      "defaultTitle": "Aplicación bíblica de YouVersion",
-      "defaultDescription": "Lee la Biblia, descubre planes y busca a Dios todos los días."
+      "defaultTitle": "YouVersion Bible App",
+      "defaultDescription": "Read the Bible, discover plans, and seek God every day."
     }
   }
 }

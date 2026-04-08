@@ -1,31 +1,32 @@
 {
   "common": {
     "auth": {
-      "signInButton": "Iniciar sesión",
-      "signOutButton": "Cerrar sesión",
-      "signUpButton": "Regístrate",
-      "forgotPassword": "¿Olvidó la contraseña?",
-      "emailPlaceholder": "Dirección de email",
-      "passwordPlaceholder": "Contraseña",
-      "welcomeMessage": "¡Bienvenido de nuevo, {{name}}!"
+      "signInButton": "Sign In",
+      "signOutButton": "Sign Out",
+      "signUpButton": "Sign Up",
+      "forgotPassword": "Forgot Password?",
+      "emailPlaceholder": "Email address",
+      "passwordPlaceholder": "Password",
+      "welcomeMessage": "Welcome back, {{name}}!"
     },
     "general": {
       "ok": "OK",
-      "cancel": "Cancelar",
-      "save": "Guardar",
-      "delete": "Eliminar",
-      "edit": "Editar",
-      "done": "Hecho",
-      "loading": "Cargando…",
-      "retry": "Reintentar",
-      "errorGeneric": "Algo salió mal. Por favor, inténtalo de nuevo."
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit",
+      "done": "Done",
+      "loading": "Loading…",
+      "retry": "Retry",
+      "errorGeneric": "Something went wrong. Please try again."
     },
     "bible": {
-      "verseOfTheDay": "Versículo del día",
-      "readMore": "Leer más",
-      "bookmarkAdded": "Marcador añadido",
-      "bookmarkRemoved": "Marcador eliminado",
-      "shareVerse": "Compartir este versículo"
+      "verseOfTheDay": "Verse of the Day",
+      "readMore": "Read More",
+      "bookmarkAdded": "Bookmark added",
+      "bookmarkRemoved": "Bookmark removed",
+      "shareVerse": "Share this verse",
+      "chaptersRead": "You've read {{count}} chapters today!"
     }
   }
 }

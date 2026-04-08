@@ -1,14 +1,14 @@
 /* iOS-only strings */
 /* Settings */
 
-"ios.settings.notificationToggle" = "Habilitar notificaciones";
-"ios.settings.darkModeToggle" = "Modo Oscuro";
-"ios.settings.textSizeLabel" = "Tamaño del texto";
+"ios.settings.notificationToggle" = "Enable Notifications";
+"ios.settings.darkModeToggle" = "Dark Mode";
+"ios.settings.textSizeLabel" = "Text Size";
 
 /* App Clips / Widgets */
-"ios.widget.verseWidgetTitle" = "Versículo del día";
-"ios.widget.verseWidgetDescription" = "Mostrar el verso de hoy en tu pantalla de inicio";
+"ios.widget.verseWidgetTitle" = "Verse of the Day";
+"ios.widget.verseWidgetDescription" = "Display today's verse on your home screen";
 
 /* Siri Shortcuts */
-"ios.siri.readVerseShortcut" = "Leer el versículo del día";
-"ios.siri.openBibleShortcut" = "Abrir Biblia";
+"ios.siri.readVerseShortcut" = "Read Verse of the Day";
+"ios.siri.openBibleShortcut" = "Open Bible";
