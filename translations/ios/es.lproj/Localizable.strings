@@ -21,3 +21,4 @@
 "common.bible.bookmarkAdded" = "Marcador añadido";
 "common.bible.bookmarkRemoved" = "Marcador eliminado";
 "common.bible.shareVerse" = "Compartir este versículo";
+"common.bible.chaptersRead" = "¡Has leído los capítulos %@ hoy!";
