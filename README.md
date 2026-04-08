@@ -98,17 +98,20 @@ This creates/updates `sources/common/strings.xml` and `sources/common/Localizabl
 npm run validate
 ```
 
-4. Commit all three files together:
+4. Create a branch, commit, and open a PR:
 
 ```bash
+git checkout -b add-new-string
 git add sources/common/en.json sources/common/strings.xml sources/common/Localizable.strings
 git commit -m "Add common.bible.newString"
-git push
+git push -u origin add-new-string
 ```
 
-On push to `main`, two GitHub Actions run automatically:
-- **CrowdIn Upload** — pushes the new string to CrowdIn for translation
-- **Assemble Packages** — rebuilds and commits updated package files
+5. The **Validate** workflow runs on the PR to check that generated files are up to date and keys are consistent.
+
+6. After peer review and merge to `main`, two workflows run automatically:
+   - **CrowdIn Upload** — pushes the new string to CrowdIn for translation
+   - **Assemble Packages** — rebuilds and commits updated package files
 
 ### Platform-specific strings
 
@@ -118,7 +121,7 @@ Edit the native file directly. No generation step needed.
 - **iOS:** Edit `sources/ios/Localizable.strings`
 - **React/RN:** Edit `sources/react/en.json`
 
-Commit and push. The same workflows trigger automatically.
+Create a branch, commit, open a PR, and merge after review. The same workflows trigger on merge to `main`.
 
 ## npm Scripts
 
@@ -298,27 +301,30 @@ i18next.t('common.auth.signInButton');
 ## Full Workflow: End to End
 
 ```
-1. Developer edits sources/common/en.json
-2. Run: npm run generate
-3. Run: npm run validate
-4. Commit and push to main
+1. Developer creates a branch
+2. Edit sources/common/en.json
+3. Run: npm run generate
+4. Run: npm run validate
+5. Commit, push, and open a PR
+6. [Auto] Validate workflow checks key consistency
+7. Peer review and merge
         |
         v
-5. [Auto] CrowdIn Upload — new string appears in CrowdIn
-6. [Auto] Assemble Packages — packages/ updated on main
+8. [Auto] CrowdIn Upload — new string appears in CrowdIn
+9. [Auto] Assemble Packages — packages/ updated on main
         |
         v
-7. Translators translate and approve strings in CrowdIn
+10. Translators translate and approve strings in CrowdIn
         |
         v
-8. [Auto/Manual] CrowdIn Download — opens PR with translations
-9. Review and merge translation PR
+11. [Auto/Manual] CrowdIn Download — opens PR with translations
+12. Review and merge translation PR
         |
         v
-10. [Auto] Assemble Packages — packages/ updated with translations
+13. [Auto] Assemble Packages — packages/ updated with translations
         |
         v
-11. Tag a release: git tag v1.2.3 && git push origin v1.2.3
-12. [Auto] Build and Publish — npm + Maven Central
-13. iOS consumers update their SPM dependency to the new tag
+14. Tag a release: git tag v1.2.3 && git push origin v1.2.3
+15. [Auto] Build and Publish — npm + Maven Central
+16. iOS consumers update their SPM dependency to the new tag
 ```
