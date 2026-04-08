@@ -21,3 +21,4 @@
 "common.bible.bookmarkAdded" = "Bookmark added";
 "common.bible.bookmarkRemoved" = "Bookmark removed";
 "common.bible.shareVerse" = "Share this verse";
+"common.bible.chaptersRead" = "You've read %@ chapters today!";

@@ -25,7 +25,8 @@
       "readMore": "Read More",
       "bookmarkAdded": "Bookmark added",
       "bookmarkRemoved": "Bookmark removed",
-      "shareVerse": "Share this verse"
+      "shareVerse": "Share this verse",
+      "chaptersRead": "You've read {{count}} chapters today!"
     }
   }
 }
