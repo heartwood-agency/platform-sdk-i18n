@@ -22,3 +22,4 @@
 "common.bible.bookmarkRemoved" = "Bookmark removed";
 "common.bible.shareVerse" = "Share this verse";
 "common.bible.chaptersRead" = "You've read %@ chapters today!";
+"common.bible.streakMessage" = "%@ day streak! Keep it up!";
