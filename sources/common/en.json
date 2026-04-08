@@ -26,7 +26,8 @@
       "bookmarkAdded": "Bookmark added",
       "bookmarkRemoved": "Bookmark removed",
       "shareVerse": "Share this verse",
-      "chaptersRead": "You've read {{count}} chapters today!"
+      "chaptersRead": "You've read {{count}} chapters today!",
+      "streakMessage": "{{days}} day streak! Keep it up!"
     }
   }
 }
