@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AUTO-GENERATED from en.json — do not edit manually -->
+<resources>
+    <string name="yv_i18n_common_auth_signInButton">Sign In</string>
+    <string name="yv_i18n_common_auth_signOutButton">Sign Out</string>
+    <string name="yv_i18n_common_auth_signUpButton">Sign Up</string>
+    <string name="yv_i18n_common_auth_forgotPassword">Forgot Password?</string>
+    <string name="yv_i18n_common_auth_emailPlaceholder">Email address</string>
+    <string name="yv_i18n_common_auth_passwordPlaceholder">Password</string>
+    <string name="yv_i18n_common_auth_welcomeMessage">Welcome back, %1$s!</string>
+    <string name="yv_i18n_common_general_ok">OK</string>
+    <string name="yv_i18n_common_general_cancel">Cancel</string>
+    <string name="yv_i18n_common_general_save">Save</string>
+    <string name="yv_i18n_common_general_delete">Delete</string>
+    <string name="yv_i18n_common_general_edit">Edit</string>
+    <string name="yv_i18n_common_general_done">Done</string>
+    <string name="yv_i18n_common_general_loading">Loading…</string>
+    <string name="yv_i18n_common_general_retry">Retry</string>
+    <string name="yv_i18n_common_general_errorGeneric">Something went wrong. Please try again.</string>
+    <string name="yv_i18n_common_bible_verseOfTheDay">Verse of the Day</string>
+    <string name="yv_i18n_common_bible_readMore">Read More</string>
+    <string name="yv_i18n_common_bible_bookmarkAdded">Bookmark added</string>
+    <string name="yv_i18n_common_bible_bookmarkRemoved">Bookmark removed</string>
+    <string name="yv_i18n_common_bible_shareVerse">Share this verse</string>
+    <string name="yv_i18n_common_bible_chaptersRead">You\'ve read %1$s chapters today!</string>
+    <string name="yv_i18n_common_bible_streakMessage">%1$s day streak! Keep it up!</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android-only strings -->
+    <string name="yv_i18n_android_permissions_cameraRationale">El acceso a la cámara es necesario para escanear códigos QR</string>
+    <string name="yv_i18n_android_permissions_storageRationale">El acceso al almacenamiento es necesario para guardar contenido fuera de línea</string>
+    <string name="yv_i18n_android_permissions_notificationRationale">Habilitar notificaciones para recibir versículos diarios</string>
+    <string name="yv_i18n_android_widget_verseWidgetTitle">Widget del Versículo del Día</string>
+    <string name="yv_i18n_android_widget_verseWidgetDescription">Mostrar el verso de hoy en tu pantalla de inicio</string>
+</resources>

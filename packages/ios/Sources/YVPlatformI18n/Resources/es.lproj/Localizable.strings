@@ -1,0 +1,39 @@
+/* AUTO-GENERATED from en.json — do not edit manually */
+
+"common.auth.signInButton" = "Iniciar sesión";
+"common.auth.signOutButton" = "Cerrar sesión";
+"common.auth.signUpButton" = "Regístrate";
+"common.auth.forgotPassword" = "¿Olvidó la contraseña?";
+"common.auth.emailPlaceholder" = "Dirección de email";
+"common.auth.passwordPlaceholder" = "Contraseña";
+"common.auth.welcomeMessage" = "¡Bienvenido de nuevo, %@!";
+"common.general.ok" = "OK";
+"common.general.cancel" = "Cancelar";
+"common.general.save" = "Guardar";
+"common.general.delete" = "Eliminar";
+"common.general.edit" = "Editar";
+"common.general.done" = "Hecho";
+"common.general.loading" = "Cargando…";
+"common.general.retry" = "Reintentar";
+"common.general.errorGeneric" = "Algo salió mal. Por favor, inténtalo de nuevo.";
+"common.bible.verseOfTheDay" = "Versículo del día";
+"common.bible.readMore" = "Leer más";
+"common.bible.bookmarkAdded" = "Marcador añadido";
+"common.bible.bookmarkRemoved" = "Marcador eliminado";
+"common.bible.shareVerse" = "Compartir este versículo";
+"common.bible.chaptersRead" = "¡Has leído los capítulos %@ hoy!";
+"common.bible.streakMessage" = "¡Racha de %@ días! ¡Sigue así!";
+/* iOS-only strings */
+/* Settings */
+
+"ios.settings.notificationToggle" = "Habilitar notificaciones";
+"ios.settings.darkModeToggle" = "Modo Oscuro";
+"ios.settings.textSizeLabel" = "Tamaño del texto";
+
+/* App Clips / Widgets */
+"ios.widget.verseWidgetTitle" = "Versículo del día";
+"ios.widget.verseWidgetDescription" = "Mostrar el verso de hoy en tu pantalla de inicio";
+
+/* Siri Shortcuts */
+"ios.siri.readVerseShortcut" = "Leer el versículo del día";
+"ios.siri.openBibleShortcut" = "Abrir Biblia";

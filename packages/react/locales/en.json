@@ -1,0 +1,50 @@
+{
+  "common": {
+    "auth": {
+      "signInButton": "Sign In",
+      "signOutButton": "Sign Out",
+      "signUpButton": "Sign Up",
+      "forgotPassword": "Forgot Password?",
+      "emailPlaceholder": "Email address",
+      "passwordPlaceholder": "Password",
+      "welcomeMessage": "Welcome back, {{name}}!"
+    },
+    "general": {
+      "ok": "OK",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit",
+      "done": "Done",
+      "loading": "Loading…",
+      "retry": "Retry",
+      "errorGeneric": "Something went wrong. Please try again."
+    },
+    "bible": {
+      "verseOfTheDay": "Verse of the Day",
+      "readMore": "Read More",
+      "bookmarkAdded": "Bookmark added",
+      "bookmarkRemoved": "Bookmark removed",
+      "shareVerse": "Share this verse",
+      "chaptersRead": "You've read {{count}} chapters today!",
+      "streakMessage": "{{days}} day streak! Keep it up!"
+    }
+  },
+  "react": {
+    "nav": {
+      "breadcrumbHome": "Home",
+      "breadcrumbBible": "Bible",
+      "breadcrumbPlans": "Plans",
+      "skipToContent": "Skip to main content"
+    },
+    "a11y": {
+      "menuToggle": "Toggle navigation menu",
+      "searchExpand": "Expand search",
+      "closeModal": "Close dialog"
+    },
+    "seo": {
+      "defaultTitle": "YouVersion Bible App",
+      "defaultDescription": "Read the Bible, discover plans, and seek God every day."
+    }
+  }
+}

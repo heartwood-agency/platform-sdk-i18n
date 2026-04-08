@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AUTO-GENERATED from en.json — do not edit manually -->
+<resources>
+    <string name="yv_i18n_common_auth_signInButton">Iniciar sesión</string>
+    <string name="yv_i18n_common_auth_signOutButton">Cerrar sesión</string>
+    <string name="yv_i18n_common_auth_signUpButton">Regístrate</string>
+    <string name="yv_i18n_common_auth_forgotPassword">¿Olvidó la contraseña?</string>
+    <string name="yv_i18n_common_auth_emailPlaceholder">Dirección de email</string>
+    <string name="yv_i18n_common_auth_passwordPlaceholder">Contraseña</string>
+    <string name="yv_i18n_common_auth_welcomeMessage">¡Bienvenido de nuevo, %1$s!</string>
+    <string name="yv_i18n_common_general_ok">OK</string>
+    <string name="yv_i18n_common_general_cancel">Cancelar</string>
+    <string name="yv_i18n_common_general_save">Guardar</string>
+    <string name="yv_i18n_common_general_delete">Eliminar</string>
+    <string name="yv_i18n_common_general_edit">Editar</string>
+    <string name="yv_i18n_common_general_done">Hecho</string>
+    <string name="yv_i18n_common_general_loading">Cargando…</string>
+    <string name="yv_i18n_common_general_retry">Reintentar</string>
+    <string name="yv_i18n_common_general_errorGeneric">Algo salió mal. Por favor, inténtalo de nuevo.</string>
+    <string name="yv_i18n_common_bible_verseOfTheDay">Versículo del día</string>
+    <string name="yv_i18n_common_bible_readMore">Leer más</string>
+    <string name="yv_i18n_common_bible_bookmarkAdded">Marcador añadido</string>
+    <string name="yv_i18n_common_bible_bookmarkRemoved">Marcador eliminado</string>
+    <string name="yv_i18n_common_bible_shareVerse">Compartir este versículo</string>
+    <string name="yv_i18n_common_bible_chaptersRead">¡Has leído los capítulos %1$s hoy!</string>
+    <string name="yv_i18n_common_bible_streakMessage">¡Racha de %1$s días! ¡Sigue así!</string>
+</resources>
