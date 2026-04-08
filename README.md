@@ -135,9 +135,22 @@ Create a branch, commit, open a PR, and merge after review. The same workflows t
 
 ## Working with CrowdIn
 
-### Setup
+Uploading and downloading translations happens automatically via GitHub Actions. You should not need to run CrowdIn commands locally during normal development.
 
-Create a `.env` file at the repo root (gitignored):
+- **Uploads** happen automatically when source files are merged to `main`.
+- **Downloads** happen automatically on a weekly schedule (Monday 6am UTC), or on-demand from the Actions tab ("CrowdIn Download Translations" > "Run workflow"). Downloads open a PR with the new translations for review.
+
+### Translation coverage
+
+Check how complete translations are across all platforms:
+
+```bash
+npm run check-coverage
+```
+
+### Local CrowdIn CLI (troubleshooting only)
+
+If you need to debug CrowdIn integration, you can run the CLI locally. Install it with `brew install crowdin` and create a `.env` file at the repo root (gitignored):
 
 ```
 CROWDIN_PROJECT_ID=<your-project-id>
@@ -145,37 +158,18 @@ CROWDIN_API_TOKEN=<your-api-token>
 CROWDIN_BASE_URL=https://heartwood.crowdin.com
 ```
 
-### Uploading sources locally
-
 ```bash
 source .env && export CROWDIN_PROJECT_ID CROWDIN_API_TOKEN CROWDIN_BASE_URL
 
-# Dry run first
+# Test what would be uploaded
 crowdin upload sources --dryrun
 
-# Actual upload
+# Upload sources
 crowdin upload sources
-```
 
-Normally you don't need to do this — the **CrowdIn Upload Sources** workflow runs automatically on push to `main` when `sources/` changes.
-
-### Downloading translations locally
-
-```bash
-source .env && export CROWDIN_PROJECT_ID CROWDIN_API_TOKEN CROWDIN_BASE_URL
-
+# Download translations
 crowdin download translations
 ```
-
-This pulls all approved translations into the `translations/` directory.
-
-### Downloading translations via GitHub Actions
-
-The **CrowdIn Download Translations** workflow runs:
-- **Automatically** every Monday at 6am UTC
-- **Manually** from the Actions tab (click "Run workflow")
-
-It downloads approved translations, creates a branch (`chore/crowdin-translations`), and opens a PR. Review and merge the PR to land translations on `main`.
 
 ### Translation coverage
 
