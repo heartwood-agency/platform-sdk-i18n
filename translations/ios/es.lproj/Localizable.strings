@@ -23,3 +23,4 @@
 "common.bible.shareVerse" = "Compartir este versículo";
 "common.bible.chaptersRead" = "¡Has leído los capítulos %@ hoy!";
 "common.bible.streakMessage" = "¡Racha de %@ días! ¡Sigue así!";
+"common.bible.planProgress" = "%1$@ de %2$@ días completados";
