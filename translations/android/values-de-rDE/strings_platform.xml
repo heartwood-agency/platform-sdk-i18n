@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android-only strings -->
+    <string name="yv_i18n_android_permissions_cameraRationale">Camera access is needed to scan QR codes</string>
+    <string name="yv_i18n_android_permissions_storageRationale">Storage access is needed to save offline content</string>
+    <string name="yv_i18n_android_permissions_notificationRationale">Enable notifications to receive daily verses</string>
+    <string name="yv_i18n_android_widget_verseWidgetTitle">Verse of the Day Widget</string>
+    <string name="yv_i18n_android_widget_verseWidgetDescription">Display today\'s verse on your home screen</string>
+</resources>
