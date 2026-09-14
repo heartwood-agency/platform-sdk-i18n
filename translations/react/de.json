@@ -1,0 +1,34 @@
+{
+  "common": {
+    "auth": {
+      "signInButton": "Anmelden",
+      "signOutButton": "Sign Out",
+      "signUpButton": "Sign Up",
+      "forgotPassword": "Forgot Password?",
+      "emailPlaceholder": "Email address",
+      "passwordPlaceholder": "Password",
+      "welcomeMessage": "Welcome back, {{name}}!"
+    },
+    "general": {
+      "ok": "OK",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit",
+      "done": "Done",
+      "loading": "Loading…",
+      "retry": "Retry",
+      "errorGeneric": "Something went wrong. Please try again."
+    },
+    "bible": {
+      "verseOfTheDay": "Verse of the Day",
+      "readMore": "Read More",
+      "bookmarkAdded": "Bookmark added",
+      "bookmarkRemoved": "Bookmark removed",
+      "shareVerse": "Share this verse",
+      "chaptersRead": "You've read {{count}} chapters today!",
+      "streakMessage": "{{days}} day streak! Keep it up!",
+      "planProgress": "{{completed}} of {{total}} days completed"
+    }
+  }
+}
