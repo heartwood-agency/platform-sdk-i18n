@@ -27,7 +27,8 @@
       "bookmarkRemoved": "Marcador eliminado",
       "shareVerse": "Compartir este versículo",
       "chaptersRead": "¡Has leído los capítulos {{count}} hoy!",
-      "streakMessage": "¡Racha de {{days}} días! ¡Sigue así!"
+      "streakMessage": "¡Racha de {{days}} días! ¡Sigue así!",
+      "planProgress": "{{completed}} de {{total}} días completados"
     }
   }
 }
