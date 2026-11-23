@@ -24,4 +24,5 @@
     <string name="yv_i18n_common_bible_shareVerse">Compartir este versículo</string>
     <string name="yv_i18n_common_bible_chaptersRead">¡Has leído los capítulos %1$s hoy!</string>
     <string name="yv_i18n_common_bible_streakMessage">¡Racha de %1$s días! ¡Sigue así!</string>
+    <string name="yv_i18n_common_bible_planProgress">%1$s de %2$s días completados</string>
 </resources>

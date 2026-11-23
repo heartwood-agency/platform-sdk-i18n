@@ -1,0 +1,19 @@
+{
+  "react": {
+    "nav": {
+      "breadcrumbHome": "Home",
+      "breadcrumbBible": "Bible",
+      "breadcrumbPlans": "Plans",
+      "skipToContent": "Skip to main content"
+    },
+    "a11y": {
+      "menuToggle": "Toggle navigation menu",
+      "searchExpand": "Expand search",
+      "closeModal": "Close dialog"
+    },
+    "seo": {
+      "defaultTitle": "YouVersion Bible App",
+      "defaultDescription": "Read the Bible, discover plans, and seek God every day."
+    }
+  }
+}
